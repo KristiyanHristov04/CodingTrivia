@@ -1,7 +1,7 @@
 # CodingTrivia
 This is a programming trivia website where you can test your knowledge to various programming languages
 
-TEST YOUR PROGRAMMING KNOWLEDGE -> https://codingtrivia2023.netlify.app
+TEST YOUR PROGRAMMING KNOWLEDGE -> codingtrivia2023.netlify.app
 
 <img src="https://i.ibb.co/cw1fLjC/image.png"><br>
 <img src="https://i.ibb.co/DkQmYMF/image.png"><br>
