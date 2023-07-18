@@ -8,3 +8,9 @@ DESKTOP:
 <img src="https://i.ibb.co/DkQmYMF/image.png"><br>
 <img src="https://i.ibb.co/CQbPNTs/image.png"><br>
 <img src="https://i.ibb.co/tXhbtq7/image.png"><br>
+
+MOBILE:
+<br>
+<img src="https://i.ibb.co/SXbsHL9/image.png"><br>
+<img src="https://i.ibb.co/VTM9v6T/image.png"><br>
+<img src="https://i.ibb.co/stWkQwy/image.png"><br>
