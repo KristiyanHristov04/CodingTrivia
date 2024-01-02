@@ -1,21 +1,29 @@
 const chooseQuiz = document.getElementsByClassName('chooseQuiz')[0];
 const questionNumber = document.getElementById('questionNumber');
 const question = document.getElementById('question');
+
 const answer01Div = document.getElementById('answer01');
 const answer02Div = document.getElementById('answer02');
 const answer03Div = document.getElementById('answer03');
 const answer04Div = document.getElementById('answer04');
+
 const allAnswerDivs = document.getElementsByClassName('answer');
+
 const answer01Text = document.getElementById('answer01Text');
 const answer02Text = document.getElementById('answer02Text');
 const answer03Text = document.getElementById('answer03Text');
 const answer04Text = document.getElementById('answer04Text');
+
 const nextQuestion = document.getElementById('nextQuestion');
 const container = document.getElementsByClassName('container')[0];
 const wrapper = document.getElementsByClassName('wrapper')[0];
 const wrapperHeader = document.getElementById('wrapperHeader');
 const csharpButton = document.getElementsByClassName('csharp')[0];
 const jsButton = document.getElementsByClassName('javascript')[0];
+
+const jsAnimation = document.getElementsByClassName('js')[0];
+const csharpAnimation = document.getElementsByClassName('C#')[0];
+
 let currentQuiz = '';
 
 const nextQuestionButton = document.getElementById('nextQuestion');
@@ -28,6 +36,7 @@ csharpButton.addEventListener('click', () => {
     wrapper.style.display = 'block';
     wrapperHeader.textContent = 'C# Quiz';
     chooseQuiz.style.display = 'none';
+    csharpAnimation.style.display = 'block';
     loadQuestionAndAnswer(currentQuestion);
 });
 
@@ -36,6 +45,7 @@ jsButton.addEventListener('click', () => {
     wrapper.style.display = 'block';
     wrapperHeader.textContent = 'JavaScript Quiz';
     chooseQuiz.style.display = 'none';
+    jsAnimation.style.display = 'block';
     loadQuestionAndAnswer(currentQuestion);
 });
 

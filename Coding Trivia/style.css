@@ -115,7 +115,6 @@ a {
 }
 
 .homeBtn {
-    /*  */
     display: inline-block;
     margin: 0 auto;
     padding: 1rem 1.5rem;
@@ -128,6 +127,37 @@ a {
 .homeBtn:hover {
     cursor: pointer;
     background-color: rgb(132, 218, 132);
+}
+
+
+.btn {
+    transition: transform 0.4s ease-out;
+}
+
+.btn:hover {
+    transform: rotate(-10deg);
+}
+
+.devicon {
+    display: none;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    animation-name: spin-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (max-width: 1024px){
