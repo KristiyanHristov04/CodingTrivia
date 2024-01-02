@@ -128,13 +128,22 @@ a {
     background-color: rgb(132, 218, 132);
 }
 
-
 .btn {
     transition: transform 0.4s ease-out;
 }
 
 .btn:hover {
+    box-shadow: 0px 2px 30px -5px rgba(0,0,0,0.75);
+
     transform: rotate(-10deg);
+}
+
+.btn.csharp:hover {
+    box-shadow: 0px 2px 30px -5px #631F74;
+}
+
+.btn.javascript:hover {
+    box-shadow: 0px 2px 30px -5px #EAD41C;
 }
 
 .devicon {
