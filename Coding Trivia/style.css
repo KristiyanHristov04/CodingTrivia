@@ -47,6 +47,23 @@ body {
     background-color: #f7e11e;
 }
 
+.python {
+    background-color: #38709D;
+}
+
+.python:hover {
+    background-color: #4287c2;
+}
+
+.react {
+    background-color: #65CFEC;
+    color: #ffffff;
+}
+
+.react:hover {
+    background-color: #73e1ff;
+}
+
 h1 {
     text-align: center;
 }
@@ -109,6 +126,25 @@ h1 {
     background-color: rgb(132, 218, 132);
 }
 
+#submitAnswer {
+    display: none;
+    margin: 0 auto 1rem auto;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #3a5fb4;
+}
+
+#submitAnswer:hover {
+    cursor: pointer;
+    background-color: #4a6fc4;
+}
+
+.selected-answer {
+    border: 2px solid #3a5fb4;
+}
+
 a {
     text-decoration: none;
 }
@@ -130,6 +166,7 @@ a {
 
 .btn {
     transition: transform 0.4s ease-out;
+    will-change: transform;
 }
 
 .btn:hover {
@@ -146,9 +183,17 @@ a {
     box-shadow: 0px 2px 30px -5px #EAD41C;
 }
 
+.btn.python:hover {
+    box-shadow: 0px 2px 30px -5px #3776AB;
+}
+
+.btn.react:hover {
+    box-shadow: 0px 2px 30px -5px #61DAFB;
+}
+
 .devicon {
     display: none;
-    font-size: 40px;
+    width: 40px;
     position: absolute;
     top: 20px;
     right: 20px;
