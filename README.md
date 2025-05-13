@@ -6,7 +6,7 @@ TEST YOUR PROGRAMMING KNOWLEDGE -> [codingtrivia2023.netlify.app](https://coding
 DESKTOP:
 <br>
 
-<img src="https://i.ibb.co/cw1fLjC/image.png"><br>
+![image](https://github.com/user-attachments/assets/95c4baed-07bb-43f3-a7b5-bbbc6313ae6d)
 <img src="https://i.ibb.co/DkQmYMF/image.png"><br>
 <img src="https://i.ibb.co/CQbPNTs/image.png"><br>
 <img src="https://i.ibb.co/tXhbtq7/image.png"><br>
